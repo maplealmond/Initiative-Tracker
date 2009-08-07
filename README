@@ -2,6 +2,8 @@ This is an initiative tracker designed for 4e D&D.  You can add monsters or play
 
 Pressing the X button will remove a player or monster from the list.  Pressing the ... will cause a player to hold or ready an action.  They will be inserted back into the cycle if a full turn goes by.
 
+Some of the models are datamapper objects because, in theory, I'm going to allow saving to the DB.  However, I've yet to decide on the proper way to do this, and instead embarked on a massive journey to re-factor the code to be less tied to the shoes viewing layer.  So, for now, you need the datamapper gem installed, which it should do automatically.
+
 The project contains some amount of code from the shoes-initiative-tracker project, by Marco Antônio Minetto Pompei.  The original copyright notice is reproduced, unmodified, below.
 
 - Michael Amygdalidis
