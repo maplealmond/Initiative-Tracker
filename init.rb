@@ -149,8 +149,8 @@ Shoes.app :title => "Initiative Tracker", :width => 500, :height => 550 do
             end
             image "images/wake-up.png" do
               char.waiting = false
-              @characters.next
               char.init = @characters.first.init
+              @characters.push(@characters.delete char)
               paint
             end
 
